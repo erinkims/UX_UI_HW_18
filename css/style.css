@@ -1,0 +1,169 @@
+html {
+    background: #FFF8EF;
+}
+
+body {
+    font-family: 'Arvo', serif;
+    text-decoration: normal;
+    letter-spacing: 1px;
+  }
+
+.navbar {
+    width: 100%;
+    height: 80px;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.navbar a {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    height: 80px;
+    line-height: 110px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.navbar-right {
+    float: right;
+    vertical-align: baseline; 
+    line-height: 80px;
+    margin-left: 50px;
+}
+
+.navbar-right img {
+    vertical-align: middle;
+    padding: 30px 10px 10px 5px;
+}
+
+.navbar-right p {
+    color: black;
+    display: inline;
+}
+
+h1 {
+    color:#ECC19C;
+    font-size: 40px;
+    font-weight: normal;
+    font-family: 'Arvo', serif;
+    padding: none;
+    position: relative;
+}
+
+h2 {
+    text-indent: 50px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Arvo', serif;
+    position: absolute; top: 200px;
+}
+
+h3 {
+    font-size: 30px;
+    background-color: #FFE1C7;
+    padding: 50px;
+    font-weight: normal;
+    font-family: 'Arvo', serif;
+}
+
+.hero {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 50%;
+    height: auto;
+    background-size: contain;
+}
+
+.hero-content {
+    overflow: absolute;
+    float: left;
+    width: 70%;
+}
+
+.hero-img {
+    float: right;
+    width: 30;
+    display: inline;
+    position: absolute;
+}
+
+h4 {
+    font-size: 12px;
+    font-family: arvo;
+    font-weight: normal;
+    font: 'Arvo', serif;
+}
+
+.aboutbutton {
+    position: absolute; top: 540px; left: 450px;
+}
+
+h5 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #6A3705;
+    font-size: 200px;
+    margin-left: 30%;
+    position: absolute; top: 55%;
+}
+
+h6 {
+    font-size: 50px;
+    color: #ECC19C;
+    position: absolute; left: 70%;
+    padding: none;
+}
+
+.works {
+    margin-top: 51%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+works, .container {
+    background-color: #FFE1C7;
+    width: 100%;
+    height: 800px;
+}
+
+.container-content {
+    padding: 50px;
+}
+
+h7 {
+    font-size: 50px;
+}
+
+.ol {
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+.iphones {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.footer {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    padding: 5%;
+    margin-left: 65%;
+    width: 70%;
+}
